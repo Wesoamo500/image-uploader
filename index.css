@@ -9,12 +9,12 @@
 	border-radius: 12px;
 }
 h1{
-	position: absolute;
+	
 	width: 165px;
 	height: 26.99px;
-	left: 645.97px;
-	top: 340.37px;
-
+	border:1px solid green;
+	margin: 36px auto;
+	text-align: center;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 500;
@@ -27,4 +27,55 @@ h1{
 	/* Gray 2 */
 
 	color: #4F4F4F;
+}
+p{
+	width: 121px;
+	height: 14.99px;
+	margin: 15.99px auto;
+	border:1px solid green;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 15px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.035em;
+	/* Gray 3 */
+	color: #828282;
+}
+.img_doc{
+	width: 338px;
+	height: 218.9px;
+	margin:auto;
+	background: #F6F8FB;
+	border: 1px dashed #97BEF4;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+#img_doc{
+	margin:35.85px 112.44px 94.88px 111.43px;
+	
+	/* Gray 4 */
+
+	background: #BDBDBD;
+}
+#drag{
+	position: absolute;
+	width: 166.01px;
+	height: 17.99px;
+	top:285.24px;
+	left:91.35px;
+	right:80.64px;
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	/* identical to box height */
+	letter-spacing: -0.035em;
+	/* Gray 4 */
+	color: #BDBDBD;
+	border:1px solid black;
 }
