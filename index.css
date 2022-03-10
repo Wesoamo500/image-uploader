@@ -147,12 +147,20 @@ p{
 	letter-spacing: -0.035em;
 	color: #4F4F4F;
 }
-progress{
-	position: absolute;
+progress[value]{
+	-webkit-appearance: none;
+   	appearance: none;
 	width:340.71px;
 	height:6px;
+	position: absolute;
 	left:32px;
 	top: 93.74px;
+}
+progress[value]::-webkit-progress-bar {
 	background: #F2F2F2;
+	border-radius: 8px;
+}
+progress[value]::-webkit-progress-value {
+ 	background: #2F80ED;
 	border-radius: 8px;
 }
