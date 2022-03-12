@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Document</title>
 </head>
 <body>
@@ -21,6 +22,14 @@
 	<div class="progress">
 		<label for="progress_bar">Uploading...</label><br>
 		<progress id="progress_bar" max="100" value="80"></progress>
+	</div>
+	<div class="completed">
+		<i class="fa fa-check-circle" id="check" style="font-size:48px;color:green"></i>
+		<p id="text">Uploaded successfully...</p>
+		<div id="img_container"></div>
+		<div class="copy">
+			<output name="imagePath">https://images.yourdomain.com/photo-1496950866446-325...</output><span><button class="copy_btn">Copy link</button></span>
+		</div>
 	</div>
 </body>
 </html>

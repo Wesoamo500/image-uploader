@@ -121,6 +121,7 @@ p{
 	border-radius: 8px;
 }
 .progress{
+	opacity:0;
 	position: absolute;
 	width: 400.36px;
 	height: 143.57px;
@@ -164,3 +165,98 @@ progress[value]::-webkit-progress-value {
  	background: #2F80ED;
 	border-radius: 8px;
 }
+
+.completed{
+	position: absolute;
+	width: 400.36px;
+	height: 454.96px;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+}
+#check{
+	position: absolute;
+	left: 182.68px;
+	top:39.5px;
+	height: 35px;
+	width:35px;
+}
+#text{
+	position: absolute;
+	width: 198px;
+	height: 27px;
+	left:101.18px;
+	top: 85.53px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #4F4F4F;
+}
+#img_container{
+	position: absolute;
+	width: 338px;
+	height: 224.4px;
+	left:31.18px;
+	top:150px;
+	border-radius: 12px;
+	border:1px solid gray;
+}
+.copy{
+	position: absolute;
+	width: 338px;
+	height: 34px;
+	left: 31.18px;
+	bottom:33.35px;
+	background: #F6F8FB;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.copy output{
+	position: absolute;
+	width: 240px;
+	height: 12px;
+	left:5.12px;
+	top: 11px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: 12px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: -0.035em;
+	/* Gray 2 */
+	color: #4F4F4F;
+}
+.copy_btn{
+	position: absolute;
+	width: 74px;
+	height: 28px;
+	right:2px;
+	top: 2px;
+	bottom: 2px;
+	border:none;
+	background: #2F80ED;
+	border-radius: 8px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: 12px;
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+}
+
+
