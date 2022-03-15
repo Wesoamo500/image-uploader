@@ -1,6 +1,9 @@
 {
   "name": "image-uploader-master",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "<!-- Please update value in the {}  -->",
   "main": "app.js",
   "scripts": {
