@@ -23,6 +23,4 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(3000,(req,res)=>{
-	console.log('5500')
-});
+app.listen(port)
