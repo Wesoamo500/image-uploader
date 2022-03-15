@@ -20,7 +20,7 @@ app.use(
 app.use('/api/images', router);
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/views/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 app.listen(3000,(req,res)=>{
