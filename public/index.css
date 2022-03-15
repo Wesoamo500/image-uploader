@@ -201,9 +201,6 @@ progress[value]::-webkit-progress-value {
 	letter-spacing: -0.035em;
 	color: #4F4F4F;
 }
-#img_container{
-
-}
 .copy{
 	position: absolute;
 	width: 338px;
