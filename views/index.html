@@ -6,29 +6,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+	<script src="./script.js" defer></script>
+	<title>Image-uploader</title>
 </head>
 <body>
-	<div class="card">
+	<div class="card" >
 		<h1>Upload your image</h1>
 		<p>File should be Jpeg, Png,...</p>
-		<div class="img_doc">
+		<div class="img_doc" name="image">
 			<img src="./image.svg" alt="image_loader" id="img_doc"/>
 			<p id="drag">Drag & Drop your image here</p>
 		</div>
 		<p id="or">Or</p>
-		<button class="btn-submit">Choose a file</button>
+		<input type="file" id="file-upload" name="fileupload" class="hidden"/>
+		<button class="btn-submit" onclick="document.getElementById('file-upload').click()">Choose a file</button>
 	</div>
-	<div class="progress">
+	<div class="progress hidden">
 		<label for="progress_bar">Uploading...</label><br>
 		<progress id="progress_bar" max="100" value="80"></progress>
 	</div>
-	<div class="completed">
+	<div class="completed hidden">
 		<i class="fa fa-check-circle" id="check" style="font-size:48px;color:green"></i>
 		<p id="text">Uploaded successfully...</p>
-		<div id="img_container"></div>
+		<img src="" class="image" id="image-result"/>
 		<div class="copy">
-			<output name="imagePath">https://images.yourdomain.com/photo-1496950866446-325...</output><span><button class="copy_btn">Copy link</button></span>
+			<output class="output" name="imagePath"></output><span><button class="copy_btn">Copy link</button></span>
 		</div>
 	</div>
 </body>
